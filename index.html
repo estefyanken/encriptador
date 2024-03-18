@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador Estefani yanken</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Logo.png"><strong>Encriptador de texto</strong>
+    </header>   
+      
+    <main>
+        <div id="contenedor">
+            
+            <div id="ingreso">
+                <textarea 
+                    id="texto"
+                    type="text" 
+                    placeholder=" Ingrese el texto aqui "></textarea>
+                    <h1 class="informacion">Solo letras minúsculas y sin acentos</h1>
+            </div>
+            
+            <div id="resultado"> 
+                <textarea 
+                    class="receptor"
+                    placeholder=" Ingresa el texto que desees encriptar o desencriptar."
+                    ></textarea>
+            </div>
+
+            
+        </div>   
+        <div id="botones">
+            <div class="botonE">
+                <button type="button" id="encriptar"  onclick="encriptar()">ENCRIPTAR</button>
+            </div>
+            <div class="botonD"> 
+                <button type="button" id="desencriptar"  onclick="desencriptar()">DESENCRIPTAR</button>   
+    
+            </div>
+        </div>  
+
+    </main>
+    <script src="script.js"></script>   
+    
+
+</body>
